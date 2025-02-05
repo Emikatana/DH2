@@ -124,5 +124,8 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData('Learnsets', 'grafaiai').learnset.scavenge = ['9L1'];
 		this.modData('Learnsets', 'grafaiai').learnset.drainpunch = ['9L1'];
 
+		this.modData('Learnsets', 'roaringmoon').learnset.glaiverush = ['9L1'];
+		this.modData('Learnsets', 'roaringmoon').learnset.firelash = ['9L1'];
+
 	},
 };
