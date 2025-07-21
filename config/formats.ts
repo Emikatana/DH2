@@ -3884,7 +3884,7 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[Gen 9] Pet Mods Chat Mod Rands",
-		desc: `A Random Battles Solomood made via the Pet Mods chatroom on Showdown.`,
+		desc: `A Random Battles Solomod made via the Pet Mods chatroom on Showdown.`,
 		mod: 'pmcm',
 		team: 'random',
 		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Sleep Clause Mod', 'Cancel Mod'],
@@ -3896,6 +3896,18 @@ export const Formats: FormatList = [
 			this.add('-message', `We host events periodically in the Pet Mods room on PS where we collaboratively create a randbats set for a random pokemon, changing anything we want, creating custom moves, abilities, and even custom Mega forms.`);
 			this.add('-message', `You can find all the sets and mechanical changes on our forums thread: `);
 			this.add('-message', `https://www.smogon.com/forums/threads/pet-mods-chat-mod.3760234`);
+		},
+	},
+	{
+		name: "[Gen 9] Pokemon League of Legends",
+		desc: `A Random Battles Solomod comprised of Pokemon from League of Legends.`,
+		mod: 'plol',
+		team: 'random',
+		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Sleep Clause Mod', 'Cancel Mod'],
+		onSwitchIn(pokemon) {
+      	this.add('-start', pokemon, 'typechange', pokemon.species.types.join('/'), '[silent]');
+		},
+		onBegin() {
 		},
 	},
 	{
