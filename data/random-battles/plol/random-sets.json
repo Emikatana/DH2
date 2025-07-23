@@ -1,1 +1,13 @@
-
+{    
+    "aatrox": {
+        "level": 80,
+        "sets": [
+            {
+                "role": "Bulky Attacker",
+                "movepool": ["Basic Attack", "The Darkin Blade", "Infernal Chains", "Umbral Dash"],
+                "abilities": ["Deathbringer Stance"],
+                "teraTypes": ["Normal"]
+            }
+        ]
+    }
+}
