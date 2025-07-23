@@ -2,7 +2,7 @@ export const Abilities: { [abilityid: string]: ModdedAbilityData } = {
 	
 	deathbringerstance: {
 		onBasePowerPriority: 30,
-		onBasePower(basePower, attacker, defender, move) {
+		onSourceBasePower(basePower, attacker, defender, move) {
 			if (move.id === 'basicattack' && !attacker.getVolatile('deathbringerstance')) {
 				move.basePower = Math.max(move.basePower + 20, 0);
 			}
