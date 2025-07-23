@@ -3903,6 +3903,7 @@ export const Formats: FormatList = [
 		desc: `A Random Battles Solomod comprised of Pokemon from League of Legends.`,
 		mod: 'plol',
 		team: 'random',
+		gameType: 'doubles',
 		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Sleep Clause Mod', 'Cancel Mod'],
 		onSwitchIn(pokemon) {
       	this.add('-start', pokemon, 'typechange', pokemon.species.types.join('/'), '[silent]');
