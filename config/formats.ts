@@ -3904,7 +3904,7 @@ export const Formats: FormatList = [
 		mod: 'plol',
 		team: 'random',
 		gameType: 'doubles',
-		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Sleep Clause Mod', 'Cancel Mod'],
+		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Sleep Clause Mod', 'Cancel Mod', 'Terastal Clause'],
 		onSwitchIn(pokemon) {
       	this.add('-start', pokemon, 'typechange', pokemon.species.types.join('/'), '[silent]');
 		},
