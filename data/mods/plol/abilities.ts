@@ -17,7 +17,7 @@ export const Abilities: { [abilityid: string]: ModdedAbilityData } = {
 		flags: {},
 		name: "Deathbringer Stance",
 		rating: 5,
-		num: -001,
+		num: -1,
 	},
 	
 	
