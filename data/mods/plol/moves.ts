@@ -1,6 +1,6 @@
 export const Moves: { [moveid: string]: ModdedMoveData } = {
 	basicattack: {
-		num: -001,
+		num: -1,
 		accuracy: 100,
 		basePower: 80,
 		category: "Special",
@@ -24,7 +24,7 @@ export const Moves: { [moveid: string]: ModdedMoveData } = {
 		contestType: "Beautiful",
 	},
 	thedarkinblade: {
-		num: -002,
+		num: -2,
 		accuracy: 90,
 		basePower: 90,
 		category: "Physical",
@@ -63,7 +63,7 @@ export const Moves: { [moveid: string]: ModdedMoveData } = {
 		contestType: "Cool",
 	},
 	infernalchains: {
-		num: -003,
+		num: -3,
 		accuracy: 90,
 		basePower: 50,
 		category: "Physical",
@@ -105,7 +105,7 @@ export const Moves: { [moveid: string]: ModdedMoveData } = {
 		contestType: "Cool",
 	},
 	umbraldash: {
-		num: -004,
+		num: -4,
 		accuracy: 100,
 		basePower: 60,
 		category: "Physical",
@@ -119,7 +119,7 @@ export const Moves: { [moveid: string]: ModdedMoveData } = {
 		contestType: "Cool",
 	},
 	worldender: {
-		num: -005,
+		num: -5,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
