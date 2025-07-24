@@ -8,4 +8,5 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		itemUser: ["Aatrox"],
 		num: -1,
 		gen: 9,
+	},
 };
