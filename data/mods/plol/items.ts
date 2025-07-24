@@ -6,6 +6,6 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		zMove: "World Ender",
 		zMoveFrom: "Basic Attack",
 		itemUser: ["Aatrox"],
-		num: -0001,
+		num: -1,
 		gen: 9,
 };
