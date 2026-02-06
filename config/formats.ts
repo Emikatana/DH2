@@ -4510,6 +4510,18 @@ export const Formats: FormatList = [
 			this.add('-message', `${pokemon.name}'s Speed stat is ${speed}!`);
 		},
 	},
+	{
+		name: "[Gen 9] Summoner's Rift",
+		desc: `Emi's solomod.`,
+		mod: 'rift',
+		team: 'random',
+		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Sleep Clause Mod', 'Cancel Mod'],
+		onSwitchIn(pokemon) {
+      	this.add('-start', pokemon, 'typechange', pokemon.species.types.join('/'), '[silent]');
+		},
+		onBegin() {
+		}
+	},
 	// {
 		// name: "[Gen 9] Super Types OU",
 		// desc: "The Super Type mechanic from Scootopia, only it's applied to current gen 9 OU.",
