@@ -1,0 +1,162 @@
+{
+    "aatrox": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Basic Attack", "The Darkin Blade", "Infernal Chains", "Umbral Dash"],
+                "abilities": ["Deathbringer Stance"],
+            }
+        ]
+    },
+    "ahri": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Basic Attack", "Orb of Deception", "Foxfire", "Charm"],
+                "abilities": ["Essence Theft"],
+            }
+        ]
+    },
+    "akshan": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Basic Attack", "Avengerang", "Going Rogue", "Heroic Swing"],
+                "abilities": ["Dirty Fighting"],
+            }
+        ]
+    },
+    "alistar": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Basic Attack", "Pulverize", "Headbutt", "Trample"],
+                "abilities": ["Triumphant Roar"],
+            }
+        ]
+    },
+    "amumu": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Basic Attack", "Bandage Toss", "Despair", "Tantrum"],
+                "abilities": ["Cursed Touch"],
+            }
+        ]
+    },
+    "anivia": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Basic Attack", "Flash Frost", "Crystallize", "Frostbite"],
+                "abilities": ["Rebirth"],
+            }
+        ]
+    },
+    "annie": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Basic Attack", "Disintegrate", "Incinerate", "Molten Shield"],
+                "abilities": ["Pyromania"],
+            }
+        ]
+    },
+    "ashe": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Basic Attack", "Ranger's Focus", "Volley", "Hawkshot"],
+                "abilities": ["Frost Shot"],
+            }
+        ]
+    },
+    "bard": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Basic Attack", "Cosmic Binding", "Caretaker's Shrine", "Magical Journey"],
+                "abilities": ["Traveler's Call"],
+            }
+        ]
+    },
+    "brand": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Basic Attack", "Sear", "Pillar of Flame", "Conflagration"],
+                "abilities": ["Blaze"],
+            }
+        ]
+    },
+    "braum": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Basic Attack", "Winter's Bite", "Stand Behind Me", "Unbreakable"],
+                "abilities": ["Concussive Blows"],
+            }
+        ]
+    },
+    "briar": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Basic Attack", "Head Rush", "Blood Frenzy", "Chilling Scream"],
+                "abilities": ["Crimson Curse"],
+            }
+        ]
+    },
+    "caitlyn": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Basic Attack", "Piltover Peacemaker", "Yordle Snap Trap", "90 Caliber Net"],
+                "abilities": ["Headshot"],
+            }
+        ]
+    },
+    "cassiopeia": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Basic Attack", "Noxious Blast", "Miasma", "Twin Fang"],
+                "abilities": ["Serpentine Grace"],
+            }
+        ]
+    },
+    "chogath": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Basic Attack", "Rupture", "Feral Scream", "Vorpal Spikes"],
+                "abilities": ["Carnivore"],
+            }
+        ]
+    },
+    "twitch": {
+        "level": 100,
+        "sets": [
+            {
+                "role": "Bulky Support",
+                "movepool": ["Basic Attack", "Ambush", "Venom Cask", "Contaminate"],
+                "abilities": ["Deadly Venom"],
+            }
+        ]
+    }
+}
