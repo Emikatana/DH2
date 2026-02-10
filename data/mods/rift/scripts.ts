@@ -33,9 +33,8 @@ export const Scripts: ModdedBattleScriptsData = {
     		}
     		if (atLeastOne && !mustStruggle) return zMoves;
 	    }
-
-        getZMove(move: Move, pokemon: Pokemon, skipChecks?: boolean): string | undefined {
-    		const item = pokemon.getItem();
+      	getZMove(move: Move, pokemon: Pokemon, skipChecks?: boolean): string | undefined {
+			const item = pokemon.getItem();
     		if (!skipChecks) {
     			if (pokemon.side.zMoveUsed) return;
     			if (!item.zMove) continue;
@@ -44,7 +43,54 @@ export const Scripts: ModdedBattleScriptsData = {
     			// Draining the PP of the base move prevents the corresponding Z-move from being used.
     			if (!moveData?.pp) return;
     		}
-    
+			if (pokemon.species.id === 'aatrox') {
+				return this.battle.dex.moves.get('World Ender');
+			}
+		  	if (pokemon.species.id === 'ahri') {
+				return this.battle.dex.moves.get('Spirit Rush');
+			}
+			if (pokemon.species.id === 'akshan') {
+				return this.battle.dex.moves.get('Comeuppance');
+			}
+			if (pokemon.species.id === 'alistar') {
+				return this.battle.dex.moves.get('Unbreakable Will');
+			}
+			if (pokemon.species.id === 'amumu') {
+				return this.battle.dex.moves.get('Curse of the Sad Mummy');
+			}
+			if (pokemon.species.id === 'anivia') {
+				return this.battle.dex.moves.get('Glacial Storm');
+			}
+			if (pokemon.species.id === 'annie') {
+				return this.battle.dex.moves.get('Summon: Tibbers');
+			}
+			if (pokemon.species.id === 'ashe') {
+				return this.battle.dex.moves.get('Enchanted Crystal Arrow');
+			}
+			if (pokemon.species.id === 'bard') {
+				return this.battle.dex.moves.get('Tempered Fate');
+			}
+			if (pokemon.species.id === 'brand') {
+				return this.battle.dex.moves.get('Pyroclasm');
+			}
+			if (pokemon.species.id === 'braum') {
+				return this.battle.dex.moves.get('Glacial Fissure');
+			}
+			if (pokemon.species.id === 'briar') {
+				return this.battle.dex.moves.get('Certain Death');
+			}
+			if (pokemon.species.id === 'caitlyn') {
+				return this.battle.dex.moves.get('Ace in the Hole');
+			}
+			if (pokemon.species.id === 'cassiopeia') {
+				return this.battle.dex.moves.get('Petrifying Gaze');
+			}
+			if (pokemon.species.id === 'chogath') {
+				return this.battle.dex.moves.get('Feast');
+			}
+			if (pokemon.species.id === 'twitch') {
+				return this.battle.dex.moves.get('Spray and Pray');
+			}
     		if (item.zMoveFrom) {
     			if (move.name === item.zMoveFrom) return item.zMove as string;
     		} else if (item.zMove === true) {
@@ -58,5 +104,4 @@ export const Scripts: ModdedBattleScriptsData = {
     		}
 	    }
     },
-    
 };
